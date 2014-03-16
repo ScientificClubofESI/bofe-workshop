@@ -1,0 +1,5 @@
+gcc -Wall -W -O2 -ansi -pedantic 1.c
+gdb a.out
+...
+(gdb) set args `perl -e "{print 'A'x512}"`
+(gdb) run
